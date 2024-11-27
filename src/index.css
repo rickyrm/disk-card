@@ -10,7 +10,9 @@ body {
   background-color: #303030;
   display: flex;
   margin: auto;
-  border-radius: 10px 15% 10px 10px;
+
+  /* border-radius: 10px 15% 10px 10px; */
+  clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 0% 100%);
   flex-direction: column;
   justify-content: space-between;
   position: relative;
@@ -34,8 +36,9 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: repeating-linear-gradient(90deg, #b0b3b4de, #f8f8f8de);
-  border-radius: 0 0 10px 10px;
+  background: linear-gradient(90deg, #b0b3b4de, #f8f8f8de, #b0b3b4de);
+  border-radius: 0 0 10px 10px; 
+  
   
 }
 
